@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import data from "./data";
+import "./styles.css";
 
 const Accordion = () => {
   const [selected, setSelected] = useState(null);
@@ -12,7 +13,7 @@ const Accordion = () => {
   };
   return (
     <div className="wrapper">
-      <div className="Accordion">
+      <div className="accordion">
         {data && data.length > 0 ? (
           data.map((dataItem) => (
             <div className="item">
@@ -22,10 +23,10 @@ const Accordion = () => {
               >
                 <h3>{dataItem.question}</h3>
                 <span>+</span>
-                {selected === dataItem.id ? (
-                  <div className="answer">{dataItem.answer}</div>
-                ) : null}
               </div>
+              {selected === dataItem.id ? (
+                <div className="content">{dataItem.answer}</div>
+              ) : null}
             </div>
           ))
         ) : (
