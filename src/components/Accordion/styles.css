@@ -4,6 +4,17 @@
   width: 100vw;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wrapper button {
+  padding: 10px 20px;
+  background-color: #614101;
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .accordion {
@@ -24,7 +35,18 @@
   cursor: pointer;
 }
 
+h3 {
+  text-align: start;
+}
+
 .content {
   color: white;
   height: auto;
+}
+
+.acc-content {
+  color: #ffffff;
+  height: auto;
+  text-align: start;
+  padding-bottom: 20px;
 }
