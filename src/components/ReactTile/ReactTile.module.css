@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 90px;
+}
+
+.letterContainer {
+  display: grid;
+  grid-template-columns: repeat(13, max-content);
+}
+
+.letter {
+  padding: 10px;
+  background: #c9e4ed;
+  border-radius: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.outputString {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  gap: 10px;
+}

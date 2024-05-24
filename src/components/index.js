@@ -1,5 +1,6 @@
-import Accordion from "./Accordion";
 import Header from "./Header/Header";
+import Accordion from "./Accordion";
 import Hex from "./Hex/Hex";
+import ReactTile from "./ReactTile/ReactTile";
 
-export { Accordion, Header, Hex };
+export { Header, Accordion, Hex, ReactTile };
