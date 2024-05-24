@@ -49,8 +49,8 @@ const Accordion = () => {
       </button>
       <div className="accordion">
         {data && data.length > 0 ? (
-          data.map((dataItem) => (
-            <div className="item">
+          data.map((dataItem, index) => (
+            <div className="item" key={index}>
               <div
                 className="title"
                 onClick={
