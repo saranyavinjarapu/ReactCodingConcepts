@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Header } from "./components";
 import "./App.css";
 import { displayList, componentsList } from "./utils/helpers";
 
@@ -8,6 +9,7 @@ function App() {
 
   return (
     <div className="App">
+      <Header></Header>
       <div className="main">
         {displayList.map((item, index) => (
           <button

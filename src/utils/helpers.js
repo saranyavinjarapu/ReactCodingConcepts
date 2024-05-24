@@ -1,4 +1,4 @@
-import { Accordion, Header, Hex } from "../components";
+import { Accordion, Hex, ReactTile } from "../components";
 export const displayList = [
   {
     id: "accordion",
@@ -6,10 +6,15 @@ export const displayList = [
     title: "Accordion to click and unclick",
   },
   { id: "hex", name: "Hex", title: "Accordion to click and unclick" },
+  {
+    id: "reactTile",
+    name: "React Tile",
+    title: "Click on the Tile ",
+  },
 ];
 
 export const componentsList = {
   accordion: Accordion,
   hex: Hex,
-  header: Header,
+  reactTile: ReactTile,
 };

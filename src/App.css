@@ -2,7 +2,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
 }
 
 .App-logo {
@@ -44,8 +44,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 20px;
-  padding: 10px 20px;
-  border: 1px solid red;
+  padding: 0px 20px;
+  margin-bottom: 10px;
 }
 
 button {
