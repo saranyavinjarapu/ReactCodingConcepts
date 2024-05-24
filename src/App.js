@@ -1,12 +1,29 @@
+import { useState } from "react";
 import "./App.css";
-import Accordion from "./components/Accordion";
-import Header from "./components/Header/Header";
+import { displayList, componentsList } from "./utils/helpers";
 
 function App() {
+  const [clickedChallengeId, setClickedChallengeId] = useState("");
+  const ClickedChallengeComponent = componentsList[clickedChallengeId];
+
   return (
     <div className="App">
-      <Header></Header>
-      <Accordion></Accordion>
+      <div className="main">
+        {displayList.map((item, index) => (
+          <button
+            key={index}
+            id={item.id}
+            onClick={() => setClickedChallengeId(item.id)}
+          >
+            {item.name}
+          </button>
+        ))}
+      </div>
+      {clickedChallengeId ? (
+        <ClickedChallengeComponent />
+      ) : (
+        <h1>Please Click a button to see the component</h1>
+      )}
     </div>
   );
 }

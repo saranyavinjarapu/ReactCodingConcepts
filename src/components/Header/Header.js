@@ -1,8 +1,8 @@
 import React from "react";
-import "./styles.css";
+import styles from "./Header.module.css";
 
 const Header = () => {
-  return <div className="main">ACCORDION</div>;
+  return <div className={styles.main}>REACT CODING CHALLENGES</div>;
 };
 
 export default Header;
