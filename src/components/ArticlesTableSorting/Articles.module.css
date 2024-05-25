@@ -1,0 +1,78 @@
+table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 2rem;
+  border-collapse: collapse;
+  padding-bottom: 2em;
+  border-spacing: 2px;
+  display: table;
+  box-sizing: border-box;
+  text-indent: initial;
+  unicode-bidi: isolate;
+  border-spacing: 2px;
+  border-color: gray;
+  box-shadow: 5px 5px 12px lightblue;
+}
+
+table thead tr th {
+  color: #738f93;
+  letter-spacing: 1.4px;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  height: 48px;
+  padding: 0 1.6em;
+  vertical-align: middle;
+  font-weight: 400;
+}
+
+table tbody tr td {
+  font-size: 0.8em;
+  border-bottom: thin solid rgba(0, 0, 0, 0.12);
+  height: 48px;
+  padding: 0 16px;
+}
+
+table th,
+table td {
+  text-align: left;
+  border-top: 0;
+  transition: all 0.3s ease;
+}
+
+th,
+td {
+  padding-left: 40px !important;
+  justify-content: center;
+  align-items: center;
+}
+
+th {
+  display: table-cell;
+  unicode-bidi: isolate;
+}
+
+.main {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+}
+
+.sortBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.label {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+button {
+  padding: 8px 12px;
+}
