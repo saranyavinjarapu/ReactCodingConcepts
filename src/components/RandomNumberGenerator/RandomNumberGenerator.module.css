@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+}
+
+.inputContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  display: block;
+  margin: 3px 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+input {
+  padding: 12px 14px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+button {
+  background-color: lightblue;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 14px;
+  margin-left: 40px;
+  font-size: 18px;
+}

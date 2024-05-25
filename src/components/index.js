@@ -3,5 +3,6 @@ import Accordion from "./Accordion";
 import Hex from "./Hex/Hex";
 import ReactTile from "./ReactTile/ReactTile";
 import Articles from "./ArticlesTableSorting/Articles";
+import RandomNumberGenerator from "./RandomNumberGenerator/RandomNumberGenerator";
 
-export { Header, Accordion, Hex, ReactTile, Articles };
+export { Header, Accordion, Hex, ReactTile, Articles, RandomNumberGenerator };
