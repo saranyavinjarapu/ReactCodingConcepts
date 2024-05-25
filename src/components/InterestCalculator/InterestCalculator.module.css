@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.inputContainer,
+.outputContainer {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.outputContainer {
+  padding: 20px;
+  text-transform: uppercase;
+}
