@@ -1,0 +1,22 @@
+.home {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 0px 20px;
+  margin-bottom: 10px;
+}
+
+.displayButton {
+  padding: 8px 12px;
+  background-color: aqua;
+  border: none;
+  border-radius: 8px;
+  font-size: 22px;
+}
