@@ -4,6 +4,7 @@ import {
   ReactTile,
   Articles,
   RandomNumberGenerator,
+  InterestCalculator,
 } from "../components";
 
 export const displayList = [
@@ -28,6 +29,11 @@ export const displayList = [
     name: "Random Number Generator",
     title: "Generate a random number within the input range",
   },
+  {
+    id: "interestCalculator",
+    name: "Interest Calculator",
+    title: "Generate simple interest based on input values",
+  },
 ];
 
 export const componentsList = {
@@ -36,4 +42,5 @@ export const componentsList = {
   reactTile: ReactTile,
   articleTable: Articles,
   randomNumberGenerator: RandomNumberGenerator,
+  interestCalculator: InterestCalculator,
 };
