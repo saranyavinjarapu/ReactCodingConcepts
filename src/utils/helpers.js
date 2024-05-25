@@ -1,4 +1,10 @@
-import { Accordion, Hex, ReactTile, Articles } from "../components";
+import {
+  Accordion,
+  Hex,
+  ReactTile,
+  Articles,
+  RandomNumberGenerator,
+} from "../components";
 
 export const displayList = [
   {
@@ -17,6 +23,11 @@ export const displayList = [
     name: "Articles Table Sorting",
     title: "Articles Table with Sorting Feature",
   },
+  {
+    id: "randomNumberGenerator",
+    name: "Random Number Generator",
+    title: "Generate a random number within the input range",
+  },
 ];
 
 export const componentsList = {
@@ -24,4 +35,5 @@ export const componentsList = {
   hex: Hex,
   reactTile: ReactTile,
   articleTable: Articles,
+  randomNumberGenerator: RandomNumberGenerator,
 };
