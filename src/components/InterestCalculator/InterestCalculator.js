@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import styles from "./InterestCalculator.module.css";
 
 const InterestCalculator = () => {
   const [principal, setPrincipal] = useState(1000);
@@ -16,33 +15,48 @@ const InterestCalculator = () => {
   }, [principal, rate, time]);
 
   return (
-    <div className={styles.main}>
-      <div className={styles.inputContainer}>
-        <label>Principal Amount</label>
+    <div className="flex flex-col justify-center items-center gap-4">
+      <div className="flex justify-center items-center gap-8 pt-10">
+        <label className=" text-lg font-medium">Principal Amount</label>
         <input
+          className="border border-gray-500 rounded-md p-2"
           type="number"
           id="principal"
           value={principal}
           onChange={(e) => setPrincipal(parseFloat(e.target.value))}
         />
-        <label>Interest Rate</label>
+        <label className=" text-lg font-medium">Interest Rate</label>
         <input
+          className="border border-gray-500 rounded-md p-2"
           type="number"
           id="rate"
           value={rate}
           onChange={(e) => setRate(parseFloat(e.target.value))}
         />
-        <label>Interest Rate</label>
+        <label className=" text-lg font-medium">Time</label>
         <input
+          className="border border-gray-500 rounded-md p-2"
           type="number"
           id="time"
           value={time}
           onChange={(e) => setTime(parseFloat(e.target.value))}
         />
       </div>
-      <div className={styles.outputContainer}>
-        <div id="simpleInterest">Simple Interest : {simpleInterest}</div>
-        <div id="totalAmount">Total Amount : {totalAmount}</div>
+      <div className="flex justify-center items-center gap-8 pt-20 uppercase font-bold">
+        <div id="simpleInterest">
+          Simple Interest :
+          <span className="text-blue-700 font-bold text-lg">
+            {" "}
+            {simpleInterest}
+          </span>
+        </div>
+        <div id="totalAmount">
+          Total Amount :
+          <span className="text-blue-700 font-bold text-lg">
+            {" "}
+            {totalAmount}
+          </span>
+        </div>
       </div>
     </div>
   );
