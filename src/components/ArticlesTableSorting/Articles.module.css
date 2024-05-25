@@ -11,7 +11,7 @@ table {
   unicode-bidi: isolate;
   border-spacing: 2px;
   border-color: gray;
-  box-shadow: 5px 5px 12px lightblue;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
 }
 
 table thead tr th {
