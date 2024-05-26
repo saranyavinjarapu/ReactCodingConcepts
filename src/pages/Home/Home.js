@@ -22,11 +22,13 @@ const Home = () => {
           </button>
         ))}
       </div>
-      {clickedChallengeId ? (
-        <ClickedChallengeComponent />
-      ) : (
-        <h1>Please Click a button to see the component</h1>
-      )}
+      <div style={{ border: "1px solid grey", padding: "10px", margin: "5px" }}>
+        {clickedChallengeId ? (
+          <ClickedChallengeComponent />
+        ) : (
+          <h1>Please Click a button to see the component</h1>
+        )}
+      </div>
     </div>
   );
 };

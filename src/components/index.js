@@ -5,7 +5,7 @@ import ReactTile from "./ReactTile/ReactTile";
 import Articles from "./ArticlesTableSorting/Articles";
 import RandomNumberGenerator from "./RandomNumberGenerator/RandomNumberGenerator";
 import InterestCalculator from "./InterestCalculator/InterestCalculator";
-
+import UsersAPIData from "./UsersAPIDataFilterSort/UsersAPIData";
 export {
   Header,
   Accordion,
@@ -14,4 +14,5 @@ export {
   Articles,
   RandomNumberGenerator,
   InterestCalculator,
+  UsersAPIData,
 };

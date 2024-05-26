@@ -2,7 +2,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 .main {
@@ -11,12 +11,17 @@
   gap: 20px;
   padding: 0px 20px;
   margin-bottom: 10px;
+  border: 1px solid grey;
+  max-height: 170px;
+  overflow-y: auto;
+  margin: 5px;
+  padding: 20px;
 }
 
 .displayButton {
-  padding: 8px 12px;
   background-color: aqua;
   border: none;
   border-radius: 8px;
-  font-size: 22px;
+  font-size: 12px;
+  font-weight: bolder;
 }

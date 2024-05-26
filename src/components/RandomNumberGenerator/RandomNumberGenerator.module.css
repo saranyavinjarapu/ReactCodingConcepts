@@ -1,8 +1,9 @@
 .main {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
   padding: 40px;
+  border: 1px solid grey;
 }
 
 .inputContainer {
@@ -25,11 +26,22 @@
   border: 1px solid lightgray;
 }
 
-button {
+.inputContainer button {
   background-color: lightblue;
   border-radius: 10px;
   border: none;
   padding: 12px 14px;
   margin-left: 40px;
   font-size: 18px;
+}
+
+.main h1 {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+span {
+  color: green;
+  font-size: 24px;
+  font-weight: bold;
 }

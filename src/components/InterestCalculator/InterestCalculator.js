@@ -42,7 +42,7 @@ const InterestCalculator = () => {
           onChange={(e) => setTime(parseFloat(e.target.value))}
         />
       </div>
-      <div className="flex justify-center items-center gap-8 pt-20 uppercase font-bold">
+      <div className="flex justify-center items-center gap-8 pt-20 mb-10 uppercase font-bold">
         <div id="simpleInterest">
           Simple Interest :
           <span className="text-blue-700 font-bold text-lg">
