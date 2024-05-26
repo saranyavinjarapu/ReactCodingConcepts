@@ -41,7 +41,9 @@ const RandomNumberGenerator = () => {
         />
         <button onClick={generateRandomHandler}>Generate Random</button>
       </div>
-      <h1>Random Number is : {randomNumber}</h1>
+      <h1>
+        Random Number is : <span>{randomNumber}</span>
+      </h1>
     </div>
   );
 };

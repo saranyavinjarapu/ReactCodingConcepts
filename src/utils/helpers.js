@@ -5,6 +5,7 @@ import {
   Articles,
   RandomNumberGenerator,
   InterestCalculator,
+  UsersAPIData,
 } from "../components";
 
 export const displayList = [
@@ -26,13 +27,49 @@ export const displayList = [
   },
   {
     id: "randomNumberGenerator",
-    name: "Random Number Generator",
+    name: "Random Number Gen",
     title: "Generate a random number within the input range",
   },
   {
     id: "interestCalculator",
     name: "Interest Calculator",
     title: "Generate simple interest based on input values",
+  },
+  {
+    id: "usersAPIDate",
+    name: "Users API Data",
+    title: "Fetch users data from API and perform filter-sort",
+  },
+  {
+    id: "accordion",
+    name: "Accordion",
+    title: "Accordion to click and unclick",
+  },
+  { id: "hex", name: "Hex", title: "Accordion to click and unclick" },
+  {
+    id: "reactTile",
+    name: "React Tile",
+    title: "Click on the Tile ",
+  },
+  {
+    id: "articleTable",
+    name: "Articles Table Sorting",
+    title: "Articles Table with Sorting Feature",
+  },
+  {
+    id: "randomNumberGenerator",
+    name: "Random Number Gen",
+    title: "Generate a random number within the input range",
+  },
+  {
+    id: "interestCalculator",
+    name: "Interest Calculator",
+    title: "Generate simple interest based on input values",
+  },
+  {
+    id: "usersAPIDate",
+    name: "Users API Data",
+    title: "Fetch users data from API and perform filter-sort",
   },
 ];
 
@@ -43,4 +80,5 @@ export const componentsList = {
   articleTable: Articles,
   randomNumberGenerator: RandomNumberGenerator,
   interestCalculator: InterestCalculator,
+  usersAPIDate: UsersAPIData,
 };
