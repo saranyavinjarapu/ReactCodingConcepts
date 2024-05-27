@@ -9,6 +9,7 @@ import UsersAPIData from "./UsersAPIDataFilterSort/UsersAPIData";
 import Parent from "./ParentChild/Parent";
 import FormSetInput from "./FormSetInputs/FormSetInputs";
 import AxiosCall from "./AxiosCall/AxiosCall";
+import Debounce from "./Debounce/Debounce";
 export {
   Header,
   Accordion,
@@ -21,4 +22,5 @@ export {
   Parent,
   FormSetInput,
   AxiosCall,
+  Debounce,
 };
