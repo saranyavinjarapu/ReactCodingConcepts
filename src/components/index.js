@@ -7,6 +7,7 @@ import RandomNumberGenerator from "./RandomNumberGenerator/RandomNumberGenerator
 import InterestCalculator from "./InterestCalculator/InterestCalculator";
 import UsersAPIData from "./UsersAPIDataFilterSort/UsersAPIData";
 import Parent from "./ParentChild/Parent";
+import FormSetInput from "./FormSetInputs/FormSetInputs";
 export {
   Header,
   Accordion,
@@ -17,4 +18,5 @@ export {
   InterestCalculator,
   UsersAPIData,
   Parent,
+  FormSetInput,
 };
