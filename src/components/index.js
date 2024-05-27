@@ -6,6 +6,7 @@ import Articles from "./ArticlesTableSorting/Articles";
 import RandomNumberGenerator from "./RandomNumberGenerator/RandomNumberGenerator";
 import InterestCalculator from "./InterestCalculator/InterestCalculator";
 import UsersAPIData from "./UsersAPIDataFilterSort/UsersAPIData";
+import Parent from "./ParentChild/Parent";
 export {
   Header,
   Accordion,
@@ -15,4 +16,5 @@ export {
   RandomNumberGenerator,
   InterestCalculator,
   UsersAPIData,
+  Parent,
 };
