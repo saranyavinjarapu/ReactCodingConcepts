@@ -11,6 +11,7 @@ import FormSetInput from "./FormSetInputs/FormSetInputs";
 import AxiosCall from "./AxiosCall/AxiosCall";
 import Debounce from "./Debounce/Debounce";
 import HomeCA from "./ContextAPI/HomeCA";
+import HigherOrderMain from "./HigherOrderComponent/HigherOrderMain";
 export {
   Header,
   Accordion,
@@ -25,4 +26,5 @@ export {
   AxiosCall,
   Debounce,
   HomeCA,
+  HigherOrderMain,
 };
