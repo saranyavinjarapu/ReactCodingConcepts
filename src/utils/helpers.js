@@ -6,6 +6,7 @@ import {
   RandomNumberGenerator,
   InterestCalculator,
   UsersAPIData,
+  Parent,
 } from "../components";
 
 export const displayList = [
@@ -40,6 +41,11 @@ export const displayList = [
     name: "Users API Data",
     title: "Fetch users data from API and perform filter-sort",
   },
+  {
+    id: "parentChildRelationship",
+    name: "Parent Child",
+    title: "Pass variables and methods as props from parent to child",
+  },
 ];
 
 export const componentsList = {
@@ -50,4 +56,5 @@ export const componentsList = {
   randomNumberGenerator: RandomNumberGenerator,
   interestCalculator: InterestCalculator,
   usersAPIDate: UsersAPIData,
+  parentChildRelationship: Parent,
 };
