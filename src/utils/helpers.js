@@ -9,6 +9,7 @@ import {
   Parent,
   FormSetInput,
   AxiosCall,
+  Debounce,
 } from "../components";
 
 export const displayList = [
@@ -58,6 +59,11 @@ export const displayList = [
     name: "Axios Call",
     title: "Get API Data Using Axios",
   },
+  {
+    id: "debounceAPI",
+    name: "Debounce API",
+    title: "Using debouncing technique to limit API call on user typed input",
+  },
 ];
 
 export const componentsList = {
@@ -71,4 +77,5 @@ export const componentsList = {
   parentChildRelationship: Parent,
   formSetInputs: FormSetInput,
   axiosCall: AxiosCall,
+  debounceAPI: Debounce,
 };
