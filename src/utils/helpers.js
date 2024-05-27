@@ -8,6 +8,7 @@ import {
   UsersAPIData,
   Parent,
   FormSetInput,
+  AxiosCall,
 } from "../components";
 
 export const displayList = [
@@ -52,6 +53,11 @@ export const displayList = [
     name: "Form SetInputs",
     title: "Set Form Inputs Manually on Input Change",
   },
+  {
+    id: "axiosCall",
+    name: "Axios Call",
+    title: "Get API Data Using Axios",
+  },
 ];
 
 export const componentsList = {
@@ -64,4 +70,5 @@ export const componentsList = {
   usersAPIDate: UsersAPIData,
   parentChildRelationship: Parent,
   formSetInputs: FormSetInput,
+  axiosCall: AxiosCall,
 };
