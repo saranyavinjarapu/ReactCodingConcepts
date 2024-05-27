@@ -11,6 +11,7 @@ import {
   AxiosCall,
   Debounce,
   HomeCA,
+  HigherOrderMain,
 } from "../components";
 
 export const displayList = [
@@ -70,6 +71,11 @@ export const displayList = [
     name: "Context API",
     title: "passing props and methdos using context API",
   },
+  {
+    id: "higherOrderComponent",
+    name: "Higher Order Component",
+    title: "Higher Order Component",
+  },
 ];
 
 export const componentsList = {
@@ -85,4 +91,5 @@ export const componentsList = {
   axiosCall: AxiosCall,
   debounceAPI: Debounce,
   contextAPI: HomeCA,
+  higherOrderComponent: HigherOrderMain,
 };
