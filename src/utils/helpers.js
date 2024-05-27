@@ -10,6 +10,7 @@ import {
   FormSetInput,
   AxiosCall,
   Debounce,
+  HomeCA,
 } from "../components";
 
 export const displayList = [
@@ -64,6 +65,11 @@ export const displayList = [
     name: "Debounce API",
     title: "Using debouncing technique to limit API call on user typed input",
   },
+  {
+    id: "contextAPI",
+    name: "Context API",
+    title: "passing props and methdos using context API",
+  },
 ];
 
 export const componentsList = {
@@ -78,4 +84,5 @@ export const componentsList = {
   formSetInputs: FormSetInput,
   axiosCall: AxiosCall,
   debounceAPI: Debounce,
+  contextAPI: HomeCA,
 };

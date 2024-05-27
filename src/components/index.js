@@ -10,6 +10,7 @@ import Parent from "./ParentChild/Parent";
 import FormSetInput from "./FormSetInputs/FormSetInputs";
 import AxiosCall from "./AxiosCall/AxiosCall";
 import Debounce from "./Debounce/Debounce";
+import HomeCA from "./ContextAPI/HomeCA";
 export {
   Header,
   Accordion,
@@ -23,4 +24,5 @@ export {
   FormSetInput,
   AxiosCall,
   Debounce,
+  HomeCA,
 };
