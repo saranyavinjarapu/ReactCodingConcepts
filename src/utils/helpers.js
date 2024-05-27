@@ -7,6 +7,7 @@ import {
   InterestCalculator,
   UsersAPIData,
   Parent,
+  FormSetInput,
 } from "../components";
 
 export const displayList = [
@@ -46,6 +47,11 @@ export const displayList = [
     name: "Parent Child",
     title: "Pass variables and methods as props from parent to child",
   },
+  {
+    id: "formSetInputs",
+    name: "Form SetInputs",
+    title: "Set Form Inputs Manually on Input Change",
+  },
 ];
 
 export const componentsList = {
@@ -57,4 +63,5 @@ export const componentsList = {
   interestCalculator: InterestCalculator,
   usersAPIDate: UsersAPIData,
   parentChildRelationship: Parent,
+  formSetInputs: FormSetInput,
 };
