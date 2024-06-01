@@ -12,6 +12,7 @@ import {
   Debounce,
   HomeCA,
   HigherOrderMain,
+  Recursion,
 } from "../components";
 
 export const displayList = [
@@ -76,6 +77,11 @@ export const displayList = [
     name: "Higher Order Component",
     title: "Higher Order Component",
   },
+  {
+    id: "recursionInReact",
+    name: "Recursion",
+    title: "Use Recursion to display recursive data",
+  },
 ];
 
 export const componentsList = {
@@ -92,4 +98,5 @@ export const componentsList = {
   debounceAPI: Debounce,
   contextAPI: HomeCA,
   higherOrderComponent: HigherOrderMain,
+  recursionInReact: Recursion,
 };
